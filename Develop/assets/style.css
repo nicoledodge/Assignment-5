@@ -1,0 +1,92 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+    background-image: url(./images/Planner\ background\ ocean.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+  }
+  :root {
+    --font-answer: black;
+  }
+  .lead {
+    font-family: 'Varela Round', sans-serif;
+    margin-left: 2%;
+    color: var(--font-answer);
+  }
+  .container {
+    opacity: 0.88;
+  }
+  textarea {
+    background: transparent;
+    border: none;
+    resize: none;
+    color: #000000;
+    border-left: 1px solid black;
+    padding: 10px;
+  }
+  
+  .jumbotron {
+    text-align: center;
+    background-color: rgb(77, 136, 185);
+    color: black;
+    border-radius: 0;
+    border-top: 5px solid rgb(167, 165, 165);
+    border-bottom: 5px solid rgb(167, 165, 165);
+    opacity: 0.88;
+  }
+  .lead {
+      color: #000000;
+  }
+  
+  .insideBox {
+    white-space: pre-wrap;
+  }
+  
+  .time-block {
+    text-align: center;
+    border-radius: 15px;
+    border-bottom-left-radius: 2rem;
+  }
+  
+  .row {
+    white-space: pre-wrap;
+    height: 80px;
+    border-top: 1px solid white;
+  }
+  
+  .hour {
+    background-color: rgb(28, 91, 112);
+    color: white;
+    border: 0.2rem solid rgb(17, 59, 73);
+    border-bottom-left-radius: 2rem;
+  }
+  
+  .past {
+    background-color: #d3d3d3;
+    color: white;
+  }
+  
+  .present {
+    background-color: #b6342d;
+    color: white;
+  }
+  
+  .future {
+    background-color: #87bb87;
+    color: white;
+  }
+  
+  .saveBtn {
+    border-left: 1px solid black;
+    border-top-right-radius: 15px;
+    background-color: rgb(28, 91, 112);
+    color: white;
+  }
+  
+  .saveBtn i:hover {
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  
