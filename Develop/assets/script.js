@@ -1,5 +1,6 @@
 // tells computer to load css& html first.
 $(document).ready(function () {
+    //use moment method to display exact date
     var currentDate = moment()
     $("#currentDay").text(currentDate.format('LL'));
     console.log(currentDate.format('dddd MMMM Do YYYY'));
@@ -10,21 +11,33 @@ $(document).ready(function () {
         //makes changes inside the text box 
         var text = $(this).siblings(".insideBox").val(); 
         var time = $(this).parent().attr("id"); 
-        //set items in local storage.
+        //set the time to.insidebox in local storage 
         localStorage.setItem(time, text);
     })
-
+    // $(".")
+    //call each individual hour box to local storage
     $("#hour8 .insideBox").val(localStorage.getItem("hour8"));
+    
     $("#hour9 .insideBox").val(localStorage.getItem("hour9"));
+    
     $("#hour10 .insideBox").val(localStorage.getItem("hour10"));
+    
     $("#hour11 .insideBox").val(localStorage.getItem("hour11"));
+    
     $("#hour12 .insideBox").val(localStorage.getItem("hour12"));
+    
     $("#hour13 .insideBox").val(localStorage.getItem("hour13"));
+    
     $("#hour14 .insideBox").val(localStorage.getItem("hour14"));
+    
     $("#hour15 .insideBox").val(localStorage.getItem("hour15"));
+    
     $("#hour16 .insideBox").val(localStorage.getItem("hour16"));
+    
     $("#hour17 .insideBox").val(localStorage.getItem("hour17"));
+    
     $("#hour18 .insideBox").val(localStorage.getItem("hour18"));
+
 
     function hourTracker() {
         //get current number of hours.
@@ -53,4 +66,5 @@ $(document).ready(function () {
         })
     }
     hourTracker(); //re-run function
-})
+
+1000; })
