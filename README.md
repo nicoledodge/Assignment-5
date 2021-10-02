@@ -1,23 +1,13 @@
-# Assignment-5
+# Event / Day Planner
 
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
+GIVEN the user wants to use a daily planner to create a schedule
+Once the planner is launched from the link, the current date is displayed at the top of the screen.
 
-## Acceptance Criteria
+The day planner is divided into timeblocks of the regular working day schedule, with different colors indicating what hours have passed, the current hour, and the hours yet to come.
 
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
+Each timeblock is given a textblock that is interactive and can hold and store data onto local storage enabling the planner to stay the same even if the user refreshes the page.
 
-![Preview]()
+This is done with the the interactive save button on the right side of the timeblock, used to save any text to the timeblock before refreshing the page.
+
+
+![Planner Demo](https://github.com/nicoledodge/Assignment-5/blob/main/Develop/assets/images/planner%20demo.gif?raw=true)
